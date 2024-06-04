@@ -1,0 +1,121 @@
+[
+    {
+        "device_name": "Pixel 8a (prerelease)",
+        "code_name": "akita",
+        "version": "2024051600",
+        "link": "https://releases.grapheneos.org/akita-factory-2024051600.zip",
+        "sha256_checksum": "N/A"
+    },
+    {
+        "device_name": "Pixel 8 Pro",
+        "code_name": "husky",
+        "version": "2024053100",
+        "link": "https://releases.grapheneos.org/husky-factory-2024053100.zip",
+        "sha256_checksum": "N/A"
+    },
+    {
+        "device_name": "Pixel 8",
+        "code_name": "shiba",
+        "version": "2024053100",
+        "link": "https://releases.grapheneos.org/shiba-factory-2024053100.zip",
+        "sha256_checksum": "N/A"
+    },
+    {
+        "device_name": "Pixel Fold",
+        "code_name": "felix",
+        "version": "2024053100",
+        "link": "https://releases.grapheneos.org/felix-factory-2024053100.zip",
+        "sha256_checksum": "N/A"
+    },
+    {
+        "device_name": "Pixel Tablet",
+        "code_name": "tangorpro",
+        "version": "2024053100",
+        "link": "https://releases.grapheneos.org/tangorpro-factory-2024053100.zip",
+        "sha256_checksum": "N/A"
+    },
+    {
+        "device_name": "Pixel 7a",
+        "code_name": "lynx",
+        "version": "2024053100",
+        "link": "https://releases.grapheneos.org/lynx-factory-2024053100.zip",
+        "sha256_checksum": "N/A"
+    },
+    {
+        "device_name": "Pixel 7 Pro",
+        "code_name": "cheetah",
+        "version": "2024053100",
+        "link": "https://releases.grapheneos.org/cheetah-factory-2024053100.zip",
+        "sha256_checksum": "N/A"
+    },
+    {
+        "device_name": "Pixel 7",
+        "code_name": "panther",
+        "version": "2024053100",
+        "link": "https://releases.grapheneos.org/panther-factory-2024053100.zip",
+        "sha256_checksum": "N/A"
+    },
+    {
+        "device_name": "Pixel 6a",
+        "code_name": "bluejay",
+        "version": "2024053100",
+        "link": "https://releases.grapheneos.org/bluejay-factory-2024053100.zip",
+        "sha256_checksum": "N/A"
+    },
+    {
+        "device_name": "Pixel 6 Pro",
+        "code_name": "raven",
+        "version": "2024053100",
+        "link": "https://releases.grapheneos.org/raven-factory-2024053100.zip",
+        "sha256_checksum": "N/A"
+    },
+    {
+        "device_name": "Pixel 6",
+        "code_name": "oriole",
+        "version": "2024053100",
+        "link": "https://releases.grapheneos.org/oriole-factory-2024053100.zip",
+        "sha256_checksum": "N/A"
+    },
+    {
+        "device_name": "Pixel 5a",
+        "code_name": "barbet",
+        "version": "2024053100",
+        "link": "https://releases.grapheneos.org/barbet-factory-2024053100.zip",
+        "sha256_checksum": "N/A"
+    },
+    {
+        "device_name": "Pixel 5 (extended support)",
+        "code_name": "redfin",
+        "version": "2024053100",
+        "link": "https://releases.grapheneos.org/redfin-factory-2024053100.zip",
+        "sha256_checksum": "N/A"
+    },
+    {
+        "device_name": "Pixel 4a (5G) (extended support)",
+        "code_name": "bramble",
+        "version": "2024053100",
+        "link": "https://releases.grapheneos.org/bramble-factory-2024053100.zip",
+        "sha256_checksum": "N/A"
+    },
+    {
+        "device_name": "Pixel 4a (legacy extended support)",
+        "code_name": "sunfish",
+        "version": "2024052300",
+        "link": "https://releases.grapheneos.org/sunfish-factory-2024052300.zip",
+        "sha256_checksum": "N/A"
+    },
+    {
+        "device_name": "Pixel 4 XL (legacy extended support)",
+        "code_name": "coral",
+        "version": "2024052300",
+        "link": "https://releases.grapheneos.org/coral-factory-2024052300.zip",
+        "sha256_checksum": "N/A"
+    },
+    {
+        "device_name": "Pixel 4 (legacy extended support)",
+        "code_name": "flame",
+        "version": "2024052300",
+        "link": "https://releases.grapheneos.org/flame-factory-2024052300.zip",
+        "sha256_checksum": "N/A"
+    }
+]
