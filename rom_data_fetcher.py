@@ -123,49 +123,6 @@ class ROMDataFetcher:
                 driver.quit()
 
             return device_data
-    
-        elif channel == "LineageOS":
-            device_data = []
-            for device_code_name, device_info in LineageOS.additional_partitions.items():
-                url = f"https://download.lineageos.org/devices/{device_code_name}/builds"
-                options = webdriver.ChromeOptions()
-                options.add_argument("--headless")
-                driver = webdriver.Chrome(options=options)
-                driver.get(url)
-
-                build_divs = WebDriverWait(driver, 10).until(
-                    EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".border-b.border-solid.border-black.border-opacity-15"))
-                )
-
-                for build_div in build_divs:
-                    file_divs = build_div.find_elements(By.CSS_SELECTOR, ".downloadable")
-                    if file_divs:
-                        file_name = file_divs[0].find_element(By.CSS_SELECTOR, ".title").text.strip()
-                        version = file_name.split("-")[2]
-                        file_links = {}
-
-                        for file_div in file_divs:
-                            file_name = file_div.find_element(By.CSS_SELECTOR, ".title").text.strip()
-                            file_link = file_div.find_element(By.TAG_NAME, "a").get_attribute("href")
-                            file_links[file_name] = file_link
-
-                        device_files = {}
-                        for file_name in device_info["files"]:
-                            if file_name in file_links:
-                                device_files[file_name] = file_links[file_name]
-
-                        device_name = device_info["device_name"].replace("Google ", "")
-
-                        device_data.append({
-                            "device_name": device_name,
-                            "code_name": device_code_name,
-                            "version": version,
-                            "files": device_files
-                        })
-
-                driver.quit()
-
-            return device_data        
-
+            
         else:
             return []
