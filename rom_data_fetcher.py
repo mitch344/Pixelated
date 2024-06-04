@@ -113,15 +113,17 @@ class ROMDataFetcher:
                             if file_name in file_links:
                                 device_files[file_name] = file_links[file_name]
 
+                        device_name = device_info["device_name"].replace("Google ", "")
+
                         device_data.append({
-                            "device_name": device_info["device_name"],
+                            "device_name": device_name,
                             "code_name": device_code_name,
                             "version": version,
                             "files": device_files
                         })
 
                 driver.quit()
-            return device_data
+            return device_data    
             
         else:
             return []
