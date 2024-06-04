@@ -121,7 +121,6 @@ class ROMDataFetcher:
                         })
 
                 driver.quit()
-
             return device_data
             
         else:
