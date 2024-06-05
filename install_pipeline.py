@@ -11,7 +11,7 @@ class InstallPipeline:
         folder_path = os.path.join(current_directory, folder_name)
 
         if self.channel == "LineageOS":
-            return self.install_lineageos(folder_path)
+            #return self.install_lineageos(folder_path)
 
         if platform.system() == "Windows":
             script_file = "flash-all.bat"
