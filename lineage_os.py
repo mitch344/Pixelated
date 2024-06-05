@@ -1,4 +1,11 @@
 class LineageOS:
+
+    fastboot_commands = [
+        ("boot.img", "fastboot flash boot"),
+        ("dtbo.img", "fastboot flash dtbo"),
+        ("vendor_kernel_boot.img", "fastboot flash vendor_kernel_boot")
+    ]
+
     additional_partitions = {
         "flame": {
             "device_name": "Pixel 4",

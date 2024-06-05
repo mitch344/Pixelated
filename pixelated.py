@@ -321,7 +321,7 @@ class DeviceInfoGUI(QWidget):
 
         if reply == QMessageBox.Yes:
             if channel == "LineageOS":
-                info_message = "LineageOS installation usually requires flashing multiple partions. Pixelated will handle this for you and guide you through each flash."
+                info_message = "LineageOS installation usually requires flashing multiple partions. Pixelated will handle this for you please wait for the installation to complete."
                 QMessageBox.question(self, "Installation Warning", info_message, QMessageBox.Ok)
 
             self.start_flashing(folder_name, channel)
