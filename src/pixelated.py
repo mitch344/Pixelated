@@ -3,14 +3,18 @@ import json
 import os
 import zipfile
 import subprocess
+
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QHBoxLayout, QComboBox, QTableWidget, QTableWidgetItem, QPushButton, QHeaderView, QLabel, QMessageBox
 from PyQt5.QtCore import Qt, QTimer
 from PyQt5.QtGui import QIcon
-from data_refresh_thread import DataRefreshThread
-from download_thread import DownloadThread
-from install_pipeline import InstallPipeline
-from flashing_thread import FlashingThread
-from fastboot_thread import FastbootThread
+
+from threads.data_refresh_thread import DataRefreshThread
+from threads.download_thread import DownloadThread
+from threads.flashing_thread import FlashingThread
+from threads.fastboot_thread import FastbootThread
+
+from pipelines.lineageos_pipeline import LineageOSPipeline
+from pipelines.stock_pipeline import StockPipeline
 
 class DeviceInfoGUI(QWidget):
     def __init__(self):
@@ -21,6 +25,12 @@ class DeviceInfoGUI(QWidget):
         self.initUI()
         self.download_queue = []
         self.current_folder_name = None
+        self.install_pipelines = {
+            "LineageOS": LineageOSPipeline(),
+            "Google Play Services": StockPipeline(),
+            "GrapheneOS": StockPipeline(),
+            "GrapheneOSBeta": StockPipeline()
+        }
 
     def initUI(self):
         layout = QVBoxLayout()
@@ -104,13 +114,6 @@ class DeviceInfoGUI(QWidget):
         icon = QIcon("Pixelated.png")
         self.setWindowIcon(icon)
 
-        self.install_pipelines = {
-            "Google Play Services": InstallPipeline("Google Play Services"),
-            "GrapheneOS": InstallPipeline("GrapheneOS"),
-            "GrapheneOSBeta": InstallPipeline("GrapheneOSBeta"),
-            "LineageOS": InstallPipeline("LineageOS")
-        }
-
         self.check_fastboot_version()
         self.check_fastboot_devices()
 
@@ -120,7 +123,11 @@ class DeviceInfoGUI(QWidget):
     
     def start_flashing(self, folder_name):
         channel = self.channel_combo_box.currentText()
-        install_pipeline = self.install_pipelines[channel]
+
+        if channel == "LineageOS":
+            install_pipeline = LineageOSPipeline()
+        else:
+            install_pipeline = StockPipeline()
 
         self.status_label.setText("Installing image...")
         self.flashing_thread = FlashingThread(folder_name, install_pipeline)
@@ -320,10 +327,6 @@ class DeviceInfoGUI(QWidget):
                                     QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
 
         if reply == QMessageBox.Yes:
-            if channel == "LineageOS":
-                info_message = "LineageOS installation usually requires flashing multiple partions. Pixelated will handle this for you please wait for the installation to complete."
-                QMessageBox.question(self, "Installation Warning", info_message, QMessageBox.Ok)
-
             self.start_flashing(folder_name, channel)
         else:
             self.status_label.setText("Installation canceled.")
