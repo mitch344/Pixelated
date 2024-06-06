@@ -4,6 +4,9 @@ This repository and all branches are experimental for now.
 
 ![Example Image](images/demo.png)
 
+### Warning
+Please note that the link fetching functionality in Pixelated uses Selenium and web scraping. Use this feature responsibly, as overuse may lead to your IP being blocked by the ROM providers. If you learn of a formal API way to get links, please open a request, and it will be implemented.
+
 ## Features
 - Select from various channels to view available images for your device
 - Download and install images with ease
