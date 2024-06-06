@@ -16,6 +16,7 @@ from threads.fastboot_thread import FastbootThread
 from pipelines.lineageos_pipeline import LineageOSPipeline
 from pipelines.stock_pipeline import StockPipeline
 
+
 class DeviceInfoGUI(QWidget):
     def __init__(self):
         super().__init__()
@@ -161,7 +162,7 @@ class DeviceInfoGUI(QWidget):
                 device_ids = [device.split("\t")[0] for device in devices if device]
                 if device_ids:
                     self.fastboot_devices_label.setText(f"Devices: {', '.join(device_ids)}")
-                    
+
                     flashing_lock_result = subprocess.run(["fastboot", "flashing", "get_unlock_ability"], capture_output=True, text=True)
                     if flashing_lock_result.returncode == 0:
                         flashing_lock_status = "locked" if "get_unlock_ability: 0" in flashing_lock_result.stdout else "Unlocked"
@@ -193,7 +194,7 @@ class DeviceInfoGUI(QWidget):
 
     def load_device_data(self, channel):
         if channel != "Select Channel":
-            file_name = f"device_data_{channel}.json"
+            file_name = f"./device_data_{channel}.json"
             if os.path.exists(file_name):
                 with open(file_name, "r") as file:
                     self.device_data[channel] = json.load(file)

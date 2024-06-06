@@ -8,7 +8,7 @@ from lineage_os import LineageOS
 
 
 class ROMDataFetcher:
-    def fetch_device_info(self, channel):
+    def fetch_channel_updates(self, channel):
         if channel == "Google Play Services":
             url = "https://developers.google.com/android/images"
             chrome_options = Options()
@@ -50,7 +50,7 @@ class ROMDataFetcher:
 
             driver.quit()
             return device_data
-        
+
         elif channel in ["GrapheneOS", "GrapheneOSBeta"]:
             url = "https://grapheneos.org/releases"
             options = uc.ChromeOptions()
@@ -95,7 +95,8 @@ class ROMDataFetcher:
                 driver.get(url)
 
                 build_divs = WebDriverWait(driver, 10).until(
-                    EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".border-b.border-solid.border-black.border-opacity-15"))
+                    EC.presence_of_all_elements_located(
+                        (By.CSS_SELECTOR, ".border-b.border-solid.border-black.border-opacity-15"))
                 )
 
                 for build_div in build_divs:
@@ -115,6 +116,10 @@ class ROMDataFetcher:
                             if file_name in file_links:
                                 device_files[file_name] = file_links[file_name]
 
+                        zip_file = next((f for f in file_links if f.endswith(".zip")), None)
+                        if zip_file:
+                            device_files["zip"] = file_links[zip_file]
+
                         device_name = device_info["device_name"].replace("Google ", "")
 
                         device_data.append({
@@ -125,7 +130,7 @@ class ROMDataFetcher:
                         })
 
                 driver.quit()
-            return device_data    
-            
+            return device_data
+
         else:
             return []

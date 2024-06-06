@@ -2,9 +2,21 @@
     {
         "device_name": "Pixel 4",
         "code_name": "flame",
+        "version": "20240606",
+        "files": {
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/flame/20240606/dtbo.img",
+            "boot.img": "https://mirrorbits.lineageos.org/full/flame/20240606/boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/flame/20240606/lineage-21.0-20240606-nightly-flame-signed.zip"
+        }
+    },
+    {
+        "device_name": "Pixel 4",
+        "code_name": "flame",
         "version": "20240530",
         "files": {
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/flame/20240530/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/flame/20240530/dtbo.img",
+            "boot.img": "https://mirrorbits.lineageos.org/full/flame/20240530/boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/flame/20240530/lineage-21.0-20240530-nightly-flame-signed.zip"
         }
     },
     {
@@ -12,7 +24,9 @@
         "code_name": "flame",
         "version": "20240523",
         "files": {
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/flame/20240523/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/flame/20240523/dtbo.img",
+            "boot.img": "https://mirrorbits.lineageos.org/full/flame/20240523/boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/flame/20240523/lineage-21.0-20240523-nightly-flame-signed.zip"
         }
     },
     {
@@ -20,7 +34,9 @@
         "code_name": "flame",
         "version": "20240516",
         "files": {
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/flame/20240516/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/flame/20240516/dtbo.img",
+            "boot.img": "https://mirrorbits.lineageos.org/full/flame/20240516/boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/flame/20240516/lineage-21.0-20240516-nightly-flame-signed.zip"
         }
     },
     {
@@ -28,7 +44,9 @@
         "code_name": "flame",
         "version": "20240509",
         "files": {
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/flame/20240509/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/flame/20240509/dtbo.img",
+            "boot.img": "https://mirrorbits.lineageos.org/full/flame/20240509/boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/flame/20240509/lineage-21.0-20240509-nightly-flame-signed.zip"
         }
     },
     {
@@ -36,7 +54,9 @@
         "code_name": "coral",
         "version": "20240531",
         "files": {
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/coral/20240531/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/coral/20240531/dtbo.img",
+            "boot.img": "https://mirrorbits.lineageos.org/full/coral/20240531/boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/coral/20240531/lineage-21.0-20240531-nightly-coral-signed.zip"
         }
     },
     {
@@ -44,7 +64,9 @@
         "code_name": "coral",
         "version": "20240524",
         "files": {
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/coral/20240524/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/coral/20240524/dtbo.img",
+            "boot.img": "https://mirrorbits.lineageos.org/full/coral/20240524/boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/coral/20240524/lineage-21.0-20240524-nightly-coral-signed.zip"
         }
     },
     {
@@ -52,7 +74,9 @@
         "code_name": "coral",
         "version": "20240517",
         "files": {
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/coral/20240517/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/coral/20240517/dtbo.img",
+            "boot.img": "https://mirrorbits.lineageos.org/full/coral/20240517/boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/coral/20240517/lineage-21.0-20240517-nightly-coral-signed.zip"
         }
     },
     {
@@ -60,7 +84,19 @@
         "code_name": "coral",
         "version": "20240510",
         "files": {
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/coral/20240510/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/coral/20240510/dtbo.img",
+            "boot.img": "https://mirrorbits.lineageos.org/full/coral/20240510/boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/coral/20240510/lineage-21.0-20240510-nightly-coral-signed.zip"
+        }
+    },
+    {
+        "device_name": "Pixel 4a",
+        "code_name": "sunfish",
+        "version": "20240606",
+        "files": {
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/sunfish/20240606/dtbo.img",
+            "boot.img": "https://mirrorbits.lineageos.org/full/sunfish/20240606/boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/sunfish/20240606/lineage-21.0-20240606-nightly-sunfish-signed.zip"
         }
     },
     {
@@ -68,7 +104,9 @@
         "code_name": "sunfish",
         "version": "20240530",
         "files": {
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/sunfish/20240530/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/sunfish/20240530/dtbo.img",
+            "boot.img": "https://mirrorbits.lineageos.org/full/sunfish/20240530/boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/sunfish/20240530/lineage-21.0-20240530-nightly-sunfish-signed.zip"
         }
     },
     {
@@ -76,7 +114,9 @@
         "code_name": "sunfish",
         "version": "20240523",
         "files": {
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/sunfish/20240523/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/sunfish/20240523/dtbo.img",
+            "boot.img": "https://mirrorbits.lineageos.org/full/sunfish/20240523/boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/sunfish/20240523/lineage-21.0-20240523-nightly-sunfish-signed.zip"
         }
     },
     {
@@ -84,7 +124,9 @@
         "code_name": "sunfish",
         "version": "20240516",
         "files": {
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/sunfish/20240516/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/sunfish/20240516/dtbo.img",
+            "boot.img": "https://mirrorbits.lineageos.org/full/sunfish/20240516/boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/sunfish/20240516/lineage-21.0-20240516-nightly-sunfish-signed.zip"
         }
     },
     {
@@ -92,7 +134,9 @@
         "code_name": "sunfish",
         "version": "20240509",
         "files": {
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/sunfish/20240509/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/sunfish/20240509/dtbo.img",
+            "boot.img": "https://mirrorbits.lineageos.org/full/sunfish/20240509/boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/sunfish/20240509/lineage-21.0-20240509-nightly-sunfish-signed.zip"
         }
     },
     {
@@ -101,7 +145,9 @@
         "version": "20240601",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/bramble/20240601/boot.img",
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/bramble/20240601/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/bramble/20240601/dtbo.img",
+            "vendor_boot.img": "https://mirrorbits.lineageos.org/full/bramble/20240601/vendor_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/bramble/20240601/lineage-21.0-20240601-nightly-bramble-signed.zip"
         }
     },
     {
@@ -110,7 +156,9 @@
         "version": "20240525",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/bramble/20240525/boot.img",
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/bramble/20240525/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/bramble/20240525/dtbo.img",
+            "vendor_boot.img": "https://mirrorbits.lineageos.org/full/bramble/20240525/vendor_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/bramble/20240525/lineage-21.0-20240525-nightly-bramble-signed.zip"
         }
     },
     {
@@ -119,7 +167,9 @@
         "version": "20240518",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/bramble/20240518/boot.img",
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/bramble/20240518/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/bramble/20240518/dtbo.img",
+            "vendor_boot.img": "https://mirrorbits.lineageos.org/full/bramble/20240518/vendor_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/bramble/20240518/lineage-21.0-20240518-nightly-bramble-signed.zip"
         }
     },
     {
@@ -128,7 +178,9 @@
         "version": "20240511",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/bramble/20240511/boot.img",
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/bramble/20240511/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/bramble/20240511/dtbo.img",
+            "vendor_boot.img": "https://mirrorbits.lineageos.org/full/bramble/20240511/vendor_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/bramble/20240511/lineage-21.0-20240511-nightly-bramble-signed.zip"
         }
     },
     {
@@ -137,7 +189,9 @@
         "version": "20240603",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/redfin/20240603/boot.img",
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/redfin/20240603/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/redfin/20240603/dtbo.img",
+            "vendor_boot.img": "https://mirrorbits.lineageos.org/full/redfin/20240603/vendor_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/redfin/20240603/lineage-21.0-20240603-nightly-redfin-signed.zip"
         }
     },
     {
@@ -146,7 +200,9 @@
         "version": "20240527",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/redfin/20240527/boot.img",
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/redfin/20240527/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/redfin/20240527/dtbo.img",
+            "vendor_boot.img": "https://mirrorbits.lineageos.org/full/redfin/20240527/vendor_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/redfin/20240527/lineage-21.0-20240527-nightly-redfin-signed.zip"
         }
     },
     {
@@ -155,7 +211,9 @@
         "version": "20240520",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/redfin/20240520/boot.img",
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/redfin/20240520/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/redfin/20240520/dtbo.img",
+            "vendor_boot.img": "https://mirrorbits.lineageos.org/full/redfin/20240520/vendor_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/redfin/20240520/lineage-21.0-20240520-nightly-redfin-signed.zip"
         }
     },
     {
@@ -164,7 +222,9 @@
         "version": "20240513",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/redfin/20240513/boot.img",
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/redfin/20240513/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/redfin/20240513/dtbo.img",
+            "vendor_boot.img": "https://mirrorbits.lineageos.org/full/redfin/20240513/vendor_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/redfin/20240513/lineage-21.0-20240513-nightly-redfin-signed.zip"
         }
     },
     {
@@ -173,7 +233,9 @@
         "version": "20240531",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/barbet/20240531/boot.img",
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/barbet/20240531/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/barbet/20240531/dtbo.img",
+            "vendor_boot.img": "https://mirrorbits.lineageos.org/full/barbet/20240531/vendor_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/barbet/20240531/lineage-21.0-20240531-nightly-barbet-signed.zip"
         }
     },
     {
@@ -182,7 +244,9 @@
         "version": "20240524",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/barbet/20240524/boot.img",
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/barbet/20240524/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/barbet/20240524/dtbo.img",
+            "vendor_boot.img": "https://mirrorbits.lineageos.org/full/barbet/20240524/vendor_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/barbet/20240524/lineage-21.0-20240524-nightly-barbet-signed.zip"
         }
     },
     {
@@ -191,7 +255,9 @@
         "version": "20240517",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/barbet/20240517/boot.img",
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/barbet/20240517/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/barbet/20240517/dtbo.img",
+            "vendor_boot.img": "https://mirrorbits.lineageos.org/full/barbet/20240517/vendor_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/barbet/20240517/lineage-21.0-20240517-nightly-barbet-signed.zip"
         }
     },
     {
@@ -200,7 +266,9 @@
         "version": "20240510",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/barbet/20240510/boot.img",
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/barbet/20240510/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/barbet/20240510/dtbo.img",
+            "vendor_boot.img": "https://mirrorbits.lineageos.org/full/barbet/20240510/vendor_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/barbet/20240510/lineage-21.0-20240510-nightly-barbet-signed.zip"
         }
     },
     {
@@ -209,7 +277,9 @@
         "version": "20240603",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/oriole/20240603/boot.img",
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/oriole/20240603/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/oriole/20240603/dtbo.img",
+            "vendor_boot.img": "https://mirrorbits.lineageos.org/full/oriole/20240603/vendor_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/oriole/20240603/lineage-21.0-20240603-nightly-oriole-signed.zip"
         }
     },
     {
@@ -218,7 +288,9 @@
         "version": "20240527",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/oriole/20240527/boot.img",
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/oriole/20240527/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/oriole/20240527/dtbo.img",
+            "vendor_boot.img": "https://mirrorbits.lineageos.org/full/oriole/20240527/vendor_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/oriole/20240527/lineage-21.0-20240527-nightly-oriole-signed.zip"
         }
     },
     {
@@ -227,7 +299,9 @@
         "version": "20240520",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/oriole/20240520/boot.img",
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/oriole/20240520/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/oriole/20240520/dtbo.img",
+            "vendor_boot.img": "https://mirrorbits.lineageos.org/full/oriole/20240520/vendor_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/oriole/20240520/lineage-21.0-20240520-nightly-oriole-signed.zip"
         }
     },
     {
@@ -236,7 +310,9 @@
         "version": "20240513",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/oriole/20240513/boot.img",
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/oriole/20240513/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/oriole/20240513/dtbo.img",
+            "vendor_boot.img": "https://mirrorbits.lineageos.org/full/oriole/20240513/vendor_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/oriole/20240513/lineage-21.0-20240513-nightly-oriole-signed.zip"
         }
     },
     {
@@ -245,7 +321,9 @@
         "version": "20240603",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/raven/20240603/boot.img",
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/raven/20240603/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/raven/20240603/dtbo.img",
+            "vendor_boot.img": "https://mirrorbits.lineageos.org/full/raven/20240603/vendor_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/raven/20240603/lineage-21.0-20240603-nightly-raven-signed.zip"
         }
     },
     {
@@ -254,7 +332,9 @@
         "version": "20240527",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/raven/20240527/boot.img",
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/raven/20240527/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/raven/20240527/dtbo.img",
+            "vendor_boot.img": "https://mirrorbits.lineageos.org/full/raven/20240527/vendor_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/raven/20240527/lineage-21.0-20240527-nightly-raven-signed.zip"
         }
     },
     {
@@ -263,7 +343,9 @@
         "version": "20240520",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/raven/20240520/boot.img",
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/raven/20240520/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/raven/20240520/dtbo.img",
+            "vendor_boot.img": "https://mirrorbits.lineageos.org/full/raven/20240520/vendor_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/raven/20240520/lineage-21.0-20240520-nightly-raven-signed.zip"
         }
     },
     {
@@ -272,7 +354,9 @@
         "version": "20240513",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/raven/20240513/boot.img",
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/raven/20240513/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/raven/20240513/dtbo.img",
+            "vendor_boot.img": "https://mirrorbits.lineageos.org/full/raven/20240513/vendor_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/raven/20240513/lineage-21.0-20240513-nightly-raven-signed.zip"
         }
     },
     {
@@ -281,7 +365,9 @@
         "version": "20240601",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/bluejay/20240601/boot.img",
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/bluejay/20240601/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/bluejay/20240601/dtbo.img",
+            "vendor_boot.img": "https://mirrorbits.lineageos.org/full/bluejay/20240601/vendor_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/bluejay/20240601/lineage-21.0-20240601-nightly-bluejay-signed.zip"
         }
     },
     {
@@ -290,7 +376,9 @@
         "version": "20240525",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/bluejay/20240525/boot.img",
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/bluejay/20240525/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/bluejay/20240525/dtbo.img",
+            "vendor_boot.img": "https://mirrorbits.lineageos.org/full/bluejay/20240525/vendor_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/bluejay/20240525/lineage-21.0-20240525-nightly-bluejay-signed.zip"
         }
     },
     {
@@ -299,7 +387,9 @@
         "version": "20240518",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/bluejay/20240518/boot.img",
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/bluejay/20240518/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/bluejay/20240518/dtbo.img",
+            "vendor_boot.img": "https://mirrorbits.lineageos.org/full/bluejay/20240518/vendor_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/bluejay/20240518/lineage-21.0-20240518-nightly-bluejay-signed.zip"
         }
     },
     {
@@ -308,7 +398,9 @@
         "version": "20240511",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/bluejay/20240511/boot.img",
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/bluejay/20240511/dtbo.img"
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/bluejay/20240511/dtbo.img",
+            "vendor_boot.img": "https://mirrorbits.lineageos.org/full/bluejay/20240511/vendor_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/bluejay/20240511/lineage-21.0-20240511-nightly-bluejay-signed.zip"
         }
     },
     {
@@ -318,7 +410,8 @@
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/panther/20240531/boot.img",
             "dtbo.img": "https://mirrorbits.lineageos.org/full/panther/20240531/dtbo.img",
-            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/panther/20240531/vendor_kernel_boot.img"
+            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/panther/20240531/vendor_kernel_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/panther/20240531/lineage-21.0-20240531-nightly-panther-signed.zip"
         }
     },
     {
@@ -328,7 +421,8 @@
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/panther/20240524/boot.img",
             "dtbo.img": "https://mirrorbits.lineageos.org/full/panther/20240524/dtbo.img",
-            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/panther/20240524/vendor_kernel_boot.img"
+            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/panther/20240524/vendor_kernel_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/panther/20240524/lineage-21.0-20240524-nightly-panther-signed.zip"
         }
     },
     {
@@ -338,7 +432,8 @@
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/panther/20240517/boot.img",
             "dtbo.img": "https://mirrorbits.lineageos.org/full/panther/20240517/dtbo.img",
-            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/panther/20240517/vendor_kernel_boot.img"
+            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/panther/20240517/vendor_kernel_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/panther/20240517/lineage-21.0-20240517-nightly-panther-signed.zip"
         }
     },
     {
@@ -348,7 +443,8 @@
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/panther/20240510/boot.img",
             "dtbo.img": "https://mirrorbits.lineageos.org/full/panther/20240510/dtbo.img",
-            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/panther/20240510/vendor_kernel_boot.img"
+            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/panther/20240510/vendor_kernel_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/panther/20240510/lineage-21.0-20240510-nightly-panther-signed.zip"
         }
     },
     {
@@ -358,7 +454,8 @@
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/cheetah/20240604/boot.img",
             "dtbo.img": "https://mirrorbits.lineageos.org/full/cheetah/20240604/dtbo.img",
-            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/cheetah/20240604/vendor_kernel_boot.img"
+            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/cheetah/20240604/vendor_kernel_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/cheetah/20240604/lineage-21.0-20240604-nightly-cheetah-signed.zip"
         }
     },
     {
@@ -368,7 +465,8 @@
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/cheetah/20240528/boot.img",
             "dtbo.img": "https://mirrorbits.lineageos.org/full/cheetah/20240528/dtbo.img",
-            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/cheetah/20240528/vendor_kernel_boot.img"
+            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/cheetah/20240528/vendor_kernel_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/cheetah/20240528/lineage-21.0-20240528-nightly-cheetah-signed.zip"
         }
     },
     {
@@ -378,7 +476,8 @@
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/cheetah/20240521/boot.img",
             "dtbo.img": "https://mirrorbits.lineageos.org/full/cheetah/20240521/dtbo.img",
-            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/cheetah/20240521/vendor_kernel_boot.img"
+            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/cheetah/20240521/vendor_kernel_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/cheetah/20240521/lineage-21.0-20240521-nightly-cheetah-signed.zip"
         }
     },
     {
@@ -388,17 +487,8 @@
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/cheetah/20240514/boot.img",
             "dtbo.img": "https://mirrorbits.lineageos.org/full/cheetah/20240514/dtbo.img",
-            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/cheetah/20240514/vendor_kernel_boot.img"
-        }
-    },
-    {
-        "device_name": "Pixel 7 Pro",
-        "code_name": "cheetah",
-        "version": "20240507",
-        "files": {
-            "boot.img": "https://mirrorbits.lineageos.org/full/cheetah/20240507/boot.img",
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/cheetah/20240507/dtbo.img",
-            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/cheetah/20240507/vendor_kernel_boot.img"
+            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/cheetah/20240514/vendor_kernel_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/cheetah/20240514/lineage-21.0-20240514-nightly-cheetah-signed.zip"
         }
     },
     {
@@ -408,7 +498,8 @@
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/lynx/20240531/boot.img",
             "dtbo.img": "https://mirrorbits.lineageos.org/full/lynx/20240531/dtbo.img",
-            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/lynx/20240531/vendor_kernel_boot.img"
+            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/lynx/20240531/vendor_kernel_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/lynx/20240531/lineage-21.0-20240531-nightly-lynx-signed.zip"
         }
     },
     {
@@ -418,7 +509,8 @@
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/lynx/20240524/boot.img",
             "dtbo.img": "https://mirrorbits.lineageos.org/full/lynx/20240524/dtbo.img",
-            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/lynx/20240524/vendor_kernel_boot.img"
+            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/lynx/20240524/vendor_kernel_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/lynx/20240524/lineage-21.0-20240524-nightly-lynx-signed.zip"
         }
     },
     {
@@ -428,7 +520,8 @@
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/lynx/20240517/boot.img",
             "dtbo.img": "https://mirrorbits.lineageos.org/full/lynx/20240517/dtbo.img",
-            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/lynx/20240517/vendor_kernel_boot.img"
+            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/lynx/20240517/vendor_kernel_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/lynx/20240517/lineage-21.0-20240517-nightly-lynx-signed.zip"
         }
     },
     {
@@ -438,167 +531,151 @@
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/lynx/20240510/boot.img",
             "dtbo.img": "https://mirrorbits.lineageos.org/full/lynx/20240510/dtbo.img",
-            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/lynx/20240510/vendor_kernel_boot.img"
+            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/lynx/20240510/vendor_kernel_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/lynx/20240510/lineage-21.0-20240510-nightly-lynx-signed.zip"
         }
     },
     {
-        "device_name": "Pixel Tablet",
+        "device_name": "Pixel 8",
         "code_name": "shiba",
         "version": "20240602",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/shiba/20240602/boot.img",
             "dtbo.img": "https://mirrorbits.lineageos.org/full/shiba/20240602/dtbo.img",
-            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/shiba/20240602/vendor_kernel_boot.img"
+            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/shiba/20240602/vendor_kernel_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/shiba/20240602/lineage-21.0-20240602-nightly-shiba-signed.zip"
         }
     },
     {
-        "device_name": "Pixel Tablet",
+        "device_name": "Pixel 8",
         "code_name": "shiba",
         "version": "20240526",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/shiba/20240526/boot.img",
             "dtbo.img": "https://mirrorbits.lineageos.org/full/shiba/20240526/dtbo.img",
-            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/shiba/20240526/vendor_kernel_boot.img"
+            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/shiba/20240526/vendor_kernel_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/shiba/20240526/lineage-21.0-20240526-nightly-shiba-signed.zip"
         }
     },
     {
-        "device_name": "Pixel Tablet",
+        "device_name": "Pixel 8",
         "code_name": "shiba",
         "version": "20240519",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/shiba/20240519/boot.img",
             "dtbo.img": "https://mirrorbits.lineageos.org/full/shiba/20240519/dtbo.img",
-            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/shiba/20240519/vendor_kernel_boot.img"
+            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/shiba/20240519/vendor_kernel_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/shiba/20240519/lineage-21.0-20240519-nightly-shiba-signed.zip"
         }
     },
     {
-        "device_name": "Pixel Tablet",
+        "device_name": "Pixel 8",
         "code_name": "shiba",
         "version": "20240512",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/shiba/20240512/boot.img",
             "dtbo.img": "https://mirrorbits.lineageos.org/full/shiba/20240512/dtbo.img",
-            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/shiba/20240512/vendor_kernel_boot.img"
+            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/shiba/20240512/vendor_kernel_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/shiba/20240512/lineage-21.0-20240512-nightly-shiba-signed.zip"
         }
     },
     {
-        "device_name": "Pixel Fold",
+        "device_name": "Pixel 8 Pro",
         "code_name": "husky",
         "version": "20240531",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/husky/20240531/boot.img",
             "dtbo.img": "https://mirrorbits.lineageos.org/full/husky/20240531/dtbo.img",
-            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/husky/20240531/vendor_kernel_boot.img"
+            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/husky/20240531/vendor_kernel_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/husky/20240531/lineage-21.0-20240531-nightly-husky-signed.zip"
         }
     },
     {
-        "device_name": "Pixel Fold",
+        "device_name": "Pixel 8 Pro",
         "code_name": "husky",
         "version": "20240524",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/husky/20240524/boot.img",
             "dtbo.img": "https://mirrorbits.lineageos.org/full/husky/20240524/dtbo.img",
-            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/husky/20240524/vendor_kernel_boot.img"
+            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/husky/20240524/vendor_kernel_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/husky/20240524/lineage-21.0-20240524-nightly-husky-signed.zip"
         }
     },
     {
-        "device_name": "Pixel Fold",
+        "device_name": "Pixel 8 Pro",
         "code_name": "husky",
         "version": "20240517",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/husky/20240517/boot.img",
             "dtbo.img": "https://mirrorbits.lineageos.org/full/husky/20240517/dtbo.img",
-            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/husky/20240517/vendor_kernel_boot.img"
+            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/husky/20240517/vendor_kernel_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/husky/20240517/lineage-21.0-20240517-nightly-husky-signed.zip"
         }
     },
     {
-        "device_name": "Pixel Fold",
+        "device_name": "Pixel 8 Pro",
         "code_name": "husky",
         "version": "20240510",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/husky/20240510/boot.img",
             "dtbo.img": "https://mirrorbits.lineageos.org/full/husky/20240510/dtbo.img",
-            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/husky/20240510/vendor_kernel_boot.img"
+            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/husky/20240510/vendor_kernel_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/husky/20240510/lineage-21.0-20240510-nightly-husky-signed.zip"
         }
     },
     {
-        "device_name": "Pixel 7 Pro",
+        "device_name": "Pixel Fold",
+        "code_name": "felix",
+        "version": "20240606",
+        "files": {
+            "boot.img": "https://mirrorbits.lineageos.org/full/felix/20240606/boot.img",
+            "dtbo.img": "https://mirrorbits.lineageos.org/full/felix/20240606/dtbo.img",
+            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/felix/20240606/vendor_kernel_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/felix/20240606/lineage-21.0-20240606-nightly-felix-signed.zip"
+        }
+    },
+    {
+        "device_name": "Pixel Fold",
         "code_name": "felix",
         "version": "20240530",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/felix/20240530/boot.img",
             "dtbo.img": "https://mirrorbits.lineageos.org/full/felix/20240530/dtbo.img",
-            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/felix/20240530/vendor_kernel_boot.img"
+            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/felix/20240530/vendor_kernel_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/felix/20240530/lineage-21.0-20240530-nightly-felix-signed.zip"
         }
     },
     {
-        "device_name": "Pixel 7 Pro",
+        "device_name": "Pixel Fold",
         "code_name": "felix",
         "version": "20240523",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/felix/20240523/boot.img",
             "dtbo.img": "https://mirrorbits.lineageos.org/full/felix/20240523/dtbo.img",
-            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/felix/20240523/vendor_kernel_boot.img"
+            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/felix/20240523/vendor_kernel_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/felix/20240523/lineage-21.0-20240523-nightly-felix-signed.zip"
         }
     },
     {
-        "device_name": "Pixel 7 Pro",
+        "device_name": "Pixel Fold",
         "code_name": "felix",
         "version": "20240516",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/felix/20240516/boot.img",
             "dtbo.img": "https://mirrorbits.lineageos.org/full/felix/20240516/dtbo.img",
-            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/felix/20240516/vendor_kernel_boot.img"
+            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/felix/20240516/vendor_kernel_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/felix/20240516/lineage-21.0-20240516-nightly-felix-signed.zip"
         }
     },
     {
-        "device_name": "Pixel 7 Pro",
+        "device_name": "Pixel Fold",
         "code_name": "felix",
         "version": "20240509",
         "files": {
             "boot.img": "https://mirrorbits.lineageos.org/full/felix/20240509/boot.img",
             "dtbo.img": "https://mirrorbits.lineageos.org/full/felix/20240509/dtbo.img",
-            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/felix/20240509/vendor_kernel_boot.img"
-        }
-    },
-    {
-        "device_name": "Pixel Tablet Pro",
-        "code_name": "tangorpro",
-        "version": "20240529",
-        "files": {
-            "boot.img": "https://mirrorbits.lineageos.org/full/tangorpro/20240529/boot.img",
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/tangorpro/20240529/dtbo.img",
-            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/tangorpro/20240529/vendor_kernel_boot.img"
-        }
-    },
-    {
-        "device_name": "Pixel Tablet Pro",
-        "code_name": "tangorpro",
-        "version": "20240522",
-        "files": {
-            "boot.img": "https://mirrorbits.lineageos.org/full/tangorpro/20240522/boot.img",
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/tangorpro/20240522/dtbo.img",
-            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/tangorpro/20240522/vendor_kernel_boot.img"
-        }
-    },
-    {
-        "device_name": "Pixel Tablet Pro",
-        "code_name": "tangorpro",
-        "version": "20240515",
-        "files": {
-            "boot.img": "https://mirrorbits.lineageos.org/full/tangorpro/20240515/boot.img",
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/tangorpro/20240515/dtbo.img",
-            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/tangorpro/20240515/vendor_kernel_boot.img"
-        }
-    },
-    {
-        "device_name": "Pixel Tablet Pro",
-        "code_name": "tangorpro",
-        "version": "20240508",
-        "files": {
-            "boot.img": "https://mirrorbits.lineageos.org/full/tangorpro/20240508/boot.img",
-            "dtbo.img": "https://mirrorbits.lineageos.org/full/tangorpro/20240508/dtbo.img",
-            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/tangorpro/20240508/vendor_kernel_boot.img"
+            "vendor_kernel_boot.img": "https://mirrorbits.lineageos.org/full/felix/20240509/vendor_kernel_boot.img",
+            "zip": "https://mirrorbits.lineageos.org/full/felix/20240509/lineage-21.0-20240509-nightly-felix-signed.zip"
         }
     }
 ]
